@@ -7,3 +7,17 @@ This project provides a URL shortening service along with a feature to generate 
 - **QR Code Generation**: Generate QR codes with customizable styling, including foreground color, background color, logo, and logo background shapes.
 - **Dynamic QR Code**: Generate QR codes for shortened URLs automatically.
 - **Analytics**: Retrieve analytics (click count, last accessed date, etc.) for any shortened URL.
+
+## Setup
+
+### Prerequisites
+Ensure that you have the following tools installed on your machine:
+- **Docker**: For building and running the application in containers.
+- **Docker Compose**: To run the application and MySQL as services.
+
+### Step 1: Run the Application
+
+To build and run the application, use the following command:
+
+```bash
+docker-compose up --build
